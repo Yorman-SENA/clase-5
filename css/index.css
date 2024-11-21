@@ -1,0 +1,72 @@
+.img-header {
+    width: 500px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: black;
+}
+
+article p span {
+    font-size: xx-large;
+    color: rgb(0, 132, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.miclase {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+#menu {
+    background-color: aqua;
+}
+
+h1+p {
+    text-decoration: underline;
+}
+
+#miP {
+    text-decoration: none;
+}
+
+.miA:hover,
+.miB:hover {
+    background-color: black;
+    color: brown;
+}
+
+.miA:visited,
+.miB:link {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+img:hover {
+    opacity: 0;
+}
+
+footer ::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+footer ::first-line {
+    color: #ff0000;
+    font-size: 30px;
+}
+
+.i {
+    display: block;
+}
